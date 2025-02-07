@@ -10,3 +10,5 @@
     }elseif($idade < 16){
         echo "Você tem $idade anos, ainda não pode votar!" .PHP_EOL;
     }
+
+    //
