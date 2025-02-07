@@ -1,6 +1,6 @@
 <?php
 
-    $valor = readline();
+    $valor = readline("Digite qualquer valor: ");
 
     if($valor >= 0){
         echo "O valor é positivo!" .PHP_EOL;
