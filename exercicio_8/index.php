@@ -7,22 +7,22 @@
         
         $desconto = $valorProduto * 0.1;
         $valorPago = $valorProduto - $desconto;
-        echo "O valor a ser pago é R$$valorPago";
+        echo "O valor a ser pago é R$$valorPago" .PHP_EOL;
 
     }elseif($formaPagamento === '2'){
 
         $desconto = $valorProduto * 0.05;
         $valorPago = $valorProduto - $desconto;
-        echo "O valor a ser pago é R$$valorPago";
+        echo "O valor a ser pago é R$$valorPago" .PHP_EOL;
 
     }elseif($formaPagamento === '3'){
 
-        echo "O valor a ser pago é R$$valorProduto";
+        echo "O valor a ser pago é R$$valorProduto" .PHP_EOL;
 
     }elseif($formaPagamento === '4'){
 
         $juros = $valorProduto * 0.1;
         $valorPago = $valorProduto + $juros;
-        echo "O valor a ser pago é R$$valorPago";
+        echo "O valor a ser pago é R$$valorPago" .PHP_EOL;
 
     }
