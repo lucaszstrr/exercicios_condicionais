@@ -1,6 +1,6 @@
 <?php
 
-    $idade = readline();
+    $idade = readline("Digite a idade do nadador: ");
 
     if($idade >= 5 && $idade <=7){
         echo "Nadador na categoria Infantil A" .PHP_EOL;
