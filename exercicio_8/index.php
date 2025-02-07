@@ -26,3 +26,5 @@
         echo "O valor a ser pago é R$$valorPago" .PHP_EOL;
 
     }
+
+    //
