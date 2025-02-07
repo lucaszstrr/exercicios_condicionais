@@ -9,3 +9,5 @@
     }else{
         echo "O número não está dentro da faixa" .PHP_EOL;
     }
+
+    //
