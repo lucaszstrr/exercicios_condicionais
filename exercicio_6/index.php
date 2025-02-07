@@ -1,7 +1,7 @@
 <?php
 
-    $valor1 = readline();
-    $valor2 = readline(); 
+    $valor1 = readline("Digite um valor: ");
+    $valor2 = readline("Digite outro valor: "); 
 
     if($valor1 > $valor2){
         echo "$valor1 é o maior!" .PHP_EOL;
