@@ -1,6 +1,6 @@
 <?php
 
-    $macas = readline();
+    $macas = readline("Digite o número de maçãs que irá comprar: ");
 
     if($macas < 12){
         $custoMacas = $macas * 1.3;
