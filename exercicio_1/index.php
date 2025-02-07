@@ -1,6 +1,6 @@
 <?php
 
-    $valor = readline();
+    $valor = readline("Digite um valor: ");
 
     if($valor > 10){
         echo "É maior que 10!" .PHP_EOL;
